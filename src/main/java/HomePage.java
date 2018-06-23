@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 	WebDriver driver=null;
 	//adding locators to instance varibles
-	By myAccount=By.linkText("MY ACCOUNT");
+	By myAccount=By.xpath("//*[text()='Account']/ancestor::a");
 	
 	public HomePage(WebDriver driver)
 	{
