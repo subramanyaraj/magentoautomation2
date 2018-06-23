@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 //
 public class MagentoTest {
+	//new
 	@Test
 	public  void magentoTest() {
 		WebDriver driver=new ChromeDriver();
